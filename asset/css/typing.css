@@ -1,0 +1,48 @@
+/*@font-face { 
+	font-family: 'Ubuntu Mono'; 
+	font-style: normal;
+	font-weight: 400;
+	src: local('Ubuntu Mono'), local('UbuntuMono-Regular'), url('..fonts/ViZhet7Ak-LRXZMXzuAfkY4P5ICox8Kq3LLUNMylGO4.woff2') format('woff2'), url('..fonts/ViZhet7Ak-LRXZMXzuAfkYbN6UDyHWBl620a-IRfuBk.woff') format('woff');
+}*/
+
+.init{
+	color:#737373;
+	line-height:20px;
+	font-family:courier New,courier;
+	/*font-family: 'Ubuntu Mono'; */
+	/*font-size:12pt;*/
+}
+
+.red{
+	color:#ffffff;
+	background-color:red;
+	line-height:20px;
+	font-family:courier New,courier;
+	/*font-family: 'Ubuntu Mono'; */
+	/*font-size:12pt;*/
+}
+
+.green{
+	color:#a600a6;
+	line-height:20px;
+	font-family:courier New,courier;
+	/*font-family: 'Ubuntu Mono'; */
+	/*font-size:12pt;*/
+}
+
+.cursor{
+	background-color:#cdcdcd;
+}
+
+.hidden_box{
+	width:10px;
+	background-color:#222222;
+	color:#222222;
+	border:0px solid #222222;
+	float:right;
+}
+
+.focus_click{
+	min-height:300px;
+	/*border:1px solid red;*/
+}

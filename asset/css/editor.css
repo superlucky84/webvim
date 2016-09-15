@@ -1,0 +1,94 @@
+/*@import url(http://fonts.googleapis.com/earlyaccess/nanumgothiccoding.css');*/
+/*font-family: 'Nanum Gothic Coding', serif;*/
+
+
+/*@font-face { 
+	font-family: 'Ubuntu Mono'; 
+	font-size:12pt;
+	font-style: normal;
+	font-weight: 400;
+	src: local('Ubuntu Mono'), local('UbuntuMono-Regular'), url('..fonts/ViZhet7Ak-LRXZMXzuAfkY4P5ICox8Kq3LLUNMylGO4.woff2') format('woff2'), url('..fonts/ViZhet7Ak-LRXZMXzuAfkYbN6UDyHWBl620a-IRfuBk.woff') format('woff');
+}*/
+
+#editor_pann{
+	/*min-width:768px;*/
+	/*border:1px solid red;*/
+	overflow-y:scroll;
+}
+
+#editor_area{
+	font-family:courier New,courier;
+	/*font-family:'Ubuntu Mono';*/
+	/*font-size:12pt;*/
+	color:gray;
+	float:left;
+	/*border:1px solid blue;*/
+	/*max-width:1100px;*/
+}
+#editor_num_area{
+	font-family:courier New,courier;
+	/*font-family:'Ubuntu Mono';*/
+	/*font-size:12pt;*/
+	color:#464646;
+	float:left;
+	min-width:10px;
+	width:auto;
+}
+.linehigh{
+	background-color:#2C2C2C;
+}
+
+.hidden_box{
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:10px;
+	background-color:#222222;
+	color:#222222;
+	border:0px solid #222222;
+	float:right;
+}
+
+pre.editor_line{
+	min-height:15px;
+	height:auto;
+	width:100%;
+	margin:0px;
+	font-family:courier New,courier;
+	word-break:break-all;
+	white-space: pre-wrap;
+	/*border:1px solid red;*/
+}
+div.editor_line{
+	min-height:15px;
+	height:auto;
+	width:100%;
+	margin:0px;
+	font-family:courier New,courier;
+	word-break:break-all;
+	white-space: pre-wrap;
+	/*border:1px solid red;*/
+}
+.editor_cursor{
+	position:absolute;
+	width:10px;
+	height:16px;
+	left:0px;
+	top:0px;
+	z-index:1;
+	opacity: 0.5;
+	border:0px;
+	background-color:#7e7;
+}
+.editor_visual{
+	position:absolute;
+	width:10px;
+	height:16px;
+	left:0px;
+	top:0px;
+	z-index:1;
+	opacity: 0.5;
+	border:0px;
+	background-color:#7e7;
+	display:none;
+}
